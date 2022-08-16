@@ -1,3 +1,60 @@
+body {
+  background: linear-gradient(90deg, rgba(0,0,0,0.4009978991596639) 0%, rgba(0,0,0,0.4) 100%), url("luis-villasmil-mlVbMbxfWI4-unsplash.jpg");
+  width: 1200px; 
+  background-size: cover;
+  background-position: top;
+  margin: 0 auto;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+text-align: center;
+font-size: 46px;
+opacity: 0.65;
+}
+
+ul {
+  background-color: rgba(255, 235, 205, 0.185);
+  border-radius: 8px;
+  padding: 0px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #4d95af;
+  
+}
+
+a:hover {
+  color: #72c6da
+}
+
+li a {
+text-decoration: none;
+color: white;
+display: inline-block;
+}
+
 li {
   display: flex;
+  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  justify-content: space-between;
+  text-align: start;
+  align-items: center;
+}
+
+.fa-check {
+  color: rgb(48, 185, 82);
+}
+
+.fa-xmark {
+  color: crimson;
 }
